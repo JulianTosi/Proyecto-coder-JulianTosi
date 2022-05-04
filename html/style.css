@@ -30,6 +30,12 @@
   text-align: center;
   border: solid;
   background: rgb(104, 167, 173);
+  background: linear-gradient(
+    180deg,
+    rgba(104, 167, 173, 1) 29%,
+    rgba(153, 196, 200, 1) 49%,
+    rgba(229, 203, 159, 1) 77%
+  );
 }
 .lista__principal li {
   display: inline;
@@ -96,6 +102,12 @@
 
   border: 10px solid #99C4C8;
   background: rgb(104, 167, 173);
+  background: linear-gradient(
+    0deg,
+    rgba(104, 167, 173, 1) 29%,
+    rgba(153, 196, 200, 1) 49%,
+    rgba(229, 203, 159, 1) 77%
+  );
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
