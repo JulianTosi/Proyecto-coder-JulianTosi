@@ -48,7 +48,7 @@
   border-style: groove;
   border-color: #e6d5b8;
   border-width: 25px;
-  background-color: #f0a500;
+  background-color:  #99c4c8;
 }
 .titulo__principal {
   text-align: center;
@@ -90,6 +90,12 @@
   border: solid rgb(46, 28, 205) 5px;
   justify-items: right;
 }
+
+.noticias__principales{
+
+  background-color: #e6d5b8;
+}
+
 
 /* pagina principal*/
 
@@ -237,16 +243,9 @@
   }
 }
 
-
-
-.contenedor_noticia{
-
-background-color: aquamarine;
-
+.fondo__navegable{
+background-color: #e6d5b8;
 
 }
-.contenedor_imagen{
-  text-align: right;
 
 
-}
