@@ -10,8 +10,6 @@
   border: solid;
 }
 
-
-
 .fondo__principal {
   justify-items: stretch;
   border-style: groove;
@@ -84,9 +82,6 @@
     rgba(229, 203, 159, 1) 77%
   );
 
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 20px;
 }
 
 .redes__sociales {
