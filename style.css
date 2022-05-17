@@ -1,36 +1,33 @@
 * {
-  margin: 1px;
-  padding: 1px;
+  margin: 0px;
+  padding: 0px;
 }
 
-.divisor__principal {
-  border: solid;
-}
-.divisor__secundario {
-  border: solid;
-}
 
 .fondo__principal {
-  justify-items: stretch;
+  
   border-style: groove;
   border-color: #e6d5b8;
   border-width: 25px;
   background-color:  #99c4c8;
 }
-.titulo__principal {
-  text-align: center;
-  font-size: 40px;
-  font-style: inherit;
-  text-decoration: #1b1a17;
-  font-weight: bolder;
+
+.fondo__navegable{
+  background: linear-gradient(
+    180deg,
+    rgba(104, 167, 173, 1) 29%,
+    rgba(153, 196, 200, 1) 49%,
+    rgba(229, 203, 159, 1) 77%
+  );
+  border: 10px solid #99c4c8;
 }
 
-/* pagina principal*/
+
+/* pagina principal index*/
 .menu__principal {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  border: solid black 5px;
   row-gap: 5px;
   column-gap: 5px;
 }
@@ -44,8 +41,8 @@
 .sec-1 {
   align-items: center;
   border: solid black 5px;
-  grid-column-start: span 2;
   text-align: center;
+  
 }
 
 .sec-2 {
@@ -58,13 +55,10 @@
   justify-items: right;
 }
 
-.noticias__principales{
-
-  background-color: #e6d5b8;
-}
+/* pagina principal index*/
 
 
-/* pagina principal*/
+
 
 /*FOOTER INICIO*/
 .pie__principal {
@@ -94,63 +88,13 @@
 
 /*FOOTER FINAL*/
 
-.lanzamientos__principal {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-}
 
-.juegos__lanzamientos {
-  max-width: 400px;
-}
+/*pagina principal lanzamientos*/
 
-/*mobile*/
-@media screen and (max-width: 450px) {
-  .lista__principal {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
-    text-align: start;
-    background-color: azure;
-  }
 
-  .pie__principal {
-    background-color: azure;
 
-    display: grid;
-    grid-auto-rows: auto;
-    grid-template-columns: 1fr;
-  }
+/*pagina principal lanzamientos*/
 
-  li {
-    display: inline;
-  }
-  .redes__sociales {
-    font-size: 20px;
-    text-align: center;
-  }
-
-  .sec-2 {
-    height: 300px;
-  }
-
-  .sec-3 {
-    height: 300px;
-  }
-
-  .menu__principal {
-    display: flex;
-    background-color: azure;
-    flex-direction: column;
-  }
-
-  .lanzamientos__principal {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
-    background-color: azure;
-  }
-}
 
 /*ANIMACIONES*/
 
@@ -206,15 +150,10 @@
     opacity: 1;
   }
 }
+/*ANIMACIONES*/
 
-.fondo__navegable{
-  background: linear-gradient(
-    180deg,
-    rgba(104, 167, 173, 1) 29%,
-    rgba(153, 196, 200, 1) 49%,
-    rgba(229, 203, 159, 1) 77%
-  );
-  border: 10px solid #99c4c8;
+
+/*mobile*/
+@media screen and (max-width: 450px) {
 }
-
 
