@@ -3,16 +3,14 @@
   padding: 0px;
 }
 
-
 .fondo__principal {
-  
   border-style: groove;
   border-color: #e6d5b8;
   border-width: 25px;
-  background-color:  #99c4c8;
+  background-color: #99c4c8;
 }
 
-.fondo__navegable{
+.fondo__navegable {
   background: linear-gradient(
     180deg,
     rgba(104, 167, 173, 1) 29%,
@@ -22,43 +20,30 @@
   border: 10px solid #99c4c8;
 }
 
-
 /* pagina principal index*/
 .menu__principal {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  row-gap: 5px;
-  column-gap: 5px;
+  text-align: center;
 }
 
 .menu__secciones {
-  -webkit-box-shadow: 0px 10px 13px -7px #000000,
-    0px 0px 11px 10px rgba(0, 0, 0, 0.17);
-  box-shadow: 0px 10px 13px -7px #000000, 0px 0px 11px 10px rgba(0, 0, 0, 0.17);
+
 }
 
 .sec-1 {
-  align-items: center;
-  border: solid black 5px;
-  text-align: center;
-  
+  border: solid black 2px;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+  0px 0px 11px 10px rgba(0, 0, 0, 0.17);
+box-shadow: 0px 10px 13px -7px #000000, 0px 0px 11px 10px rgba(0, 0, 0, 0.17);
 }
+.lista__lanzamientos {
 
-.sec-2 {
-  border: solid red 5px;
-  justify-items: left;
 }
 
 .sec-3 {
-  border: solid rgb(46, 28, 205) 5px;
-  justify-items: right;
+  
 }
 
 /* pagina principal index*/
-
-
-
 
 /*FOOTER INICIO*/
 .pie__principal {
@@ -75,7 +60,6 @@
     rgba(153, 196, 200, 1) 49%,
     rgba(229, 203, 159, 1) 77%
   );
-
 }
 
 .redes__sociales {
@@ -88,13 +72,9 @@
 
 /*FOOTER FINAL*/
 
-
 /*pagina principal lanzamientos*/
 
-
-
 /*pagina principal lanzamientos*/
-
 
 /*ANIMACIONES*/
 
@@ -111,7 +91,7 @@
 }
 
 .noticia__2:hover {
-  animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+  animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
 }
 @keyframes shake-horizontal {
   0%,
@@ -137,8 +117,8 @@
   }
 }
 
-.noticia__3:hover{
-  animation: scale-out-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+.noticia__3:hover {
+  animation: scale-out-center 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 @keyframes scale-out-center {
   0% {
@@ -152,8 +132,6 @@
 }
 /*ANIMACIONES*/
 
-
 /*mobile*/
 @media screen and (max-width: 450px) {
 }
-
