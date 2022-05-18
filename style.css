@@ -67,7 +67,12 @@ box-shadow: 0px 10px 13px -7px #000000, 0px 0px 11px 10px rgba(0, 0, 0, 0.17);
   text-align: justify;
   list-style: none;
   font-family: "Rubik", sans-serif;
-  font-size: 50px;
+  font-size: 20px;
+}
+
+.divisor__logo{
+
+
 }
 
 /*FOOTER FINAL*/
