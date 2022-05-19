@@ -30,9 +30,7 @@
   text-align: center;
 }
 
-.menu__secciones {
 
-}
 
 .sec-1 {
   border: solid black 2px;
@@ -40,13 +38,7 @@
   0px 0px 11px 10px rgba(0, 0, 0, 0.17);
 box-shadow: 0px 10px 13px -7px #000000, 0px 0px 11px 10px rgba(0, 0, 0, 0.17);
 }
-.lista__lanzamientos {
 
-}
-
-.sec-3 {
-  
-}
 
 /* pagina principal index*/
 
@@ -73,11 +65,6 @@ box-shadow: 0px 10px 13px -7px #000000, 0px 0px 11px 10px rgba(0, 0, 0, 0.17);
   list-style: none;
   font-family: "Rubik", sans-serif;
   font-size: 50px;
-}
-
-.divisor__logo{
-
-
 }
 
 /*FOOTER FINAL*/
