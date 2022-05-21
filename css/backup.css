@@ -3,27 +3,8 @@
   padding: 0px;
 }
 
-.fondo__principal {
-  border-style: groove;
-  border-color: #e6d5b8;
-  border-width: 25px;
-  background-color: #99c4c8;
-}
 
-.fondo__navegable {
-  background: linear-gradient(
-    180deg,
-    rgba(104, 167, 173, 1) 29%,
-    rgba(153, 196, 200, 1) 49%,
-    rgba(229, 203, 159, 1) 77%
-  );
-  border: 10px solid #99c4c8;
-}
 
-.navegador__principal {
-  text-decoration: none;
-
-}
 
 /* pagina principal index*/
 .menu__principal {
@@ -69,9 +50,7 @@ box-shadow: 0px 10px 13px -7px #000000, 0px 0px 11px 10px rgba(0, 0, 0, 0.17);
 
 /*FOOTER FINAL*/
 
-/*pagina principal lanzamientos*/
 
-/*pagina principal lanzamientos*/
 
 /*ANIMACIONES*/
 
