@@ -1,3 +1,4 @@
+/*header*/
 .fondo__navegable {
   background: linear-gradient(180deg, rgb(104, 167, 173) 29%, rgb(153, 196, 200) 49%, rgb(229, 203, 159) 77%);
   border: 10px solid #99c4c8;
@@ -7,11 +8,15 @@
   color: green;
 }
 
+/*header*/
+/*index principal*/
 .fondo__principal {
   background-color: #99c4c8;
-  border-color: #e6d5b8;
   border-width: 25px;
-  background-color: #99c4c8;
+  border-style: groove;
+  border-color: #e6d5b8;
 }
+
+/*index principal*/
 
 /*# sourceMappingURL=style.css.map */

@@ -1,8 +1,12 @@
-@import"../base/mapas";
+/*index principal*/
 
-.fondo__principal{
-    background-color: map-get($bg-general,background-color);
-    border-color: map-get($bg-general,border-color);
-    border-width: map-get($bg-general,border-width);
-    background-color: map-get($bg-general,background-color);
+@import "../base/mapas";
+
+.fondo__principal {
+  background-color: map-get($bg-general, background-color);
+  border-width: map-get($bg-general, border-width);
+  border-style: map-get($bg-general, border-style);
+  border-color: map-get($bg-general, border-color);
 }
+
+/*index principal*/
