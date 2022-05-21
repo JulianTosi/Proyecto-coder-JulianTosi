@@ -1,3 +1,5 @@
+@import "../base/variables";
+
 /*header*/
 .fondo__navegable {
   background: linear-gradient(
@@ -8,6 +10,9 @@
   );
   border: 10px solid #99c4c8;
   .navegador__principal {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    word-spacing: 10px;
     text-decoration: none;
     color: green;
   }

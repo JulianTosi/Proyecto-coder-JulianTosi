@@ -1,28 +1,36 @@
+@import "../base/variables";
+
 /*footer*/
-
 .pie__principal {
-    font-weight: bolder;
+  font-weight: bolder;
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
+  text-align: center;
+
+  border: 10px solid #99c4c8;
+  background: rgb(104, 167, 173);
+  background: linear-gradient(
+    0deg,
+    rgba(104, 167, 173, 1) 29%,
+    rgba(153, 196, 200, 1) 49%,
+    rgba(229, 203, 159, 1) 77%
+  );
+
+  .a__nosotros{
+    text-decoration: none;
+    color: green;
+  }
+  .footer__logo {
+    
+    max-width: 100px;
+
+  }
+  .redes__sociales {
+    text-align: justify center;
+    list-style: none;
     font-family: "Rubik", sans-serif;
-    font-size: 30px;
-    text-align: center;
-  
-    border: 10px solid #99c4c8;
-    background: rgb(104, 167, 173);
-    background: linear-gradient(
-      0deg,
-      rgba(104, 167, 173, 1) 29%,
-      rgba(153, 196, 200, 1) 49%,
-      rgba(229, 203, 159, 1) 77%
-    );
-    .redes__sociales {
-        align-items: center;
-        text-align: justify;
-        list-style: none;
-        font-family: "Rubik", sans-serif;
-        font-size: 50px;
-      }
-
-
+    font-size: 18px;
+  }
 }
 
 /*footer*/
