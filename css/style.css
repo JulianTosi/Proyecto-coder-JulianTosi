@@ -118,11 +118,6 @@
   font-family: "Rubik", sans-serif;
   font-size: 18px;
 }
-@media screen and (max-width: 450px) {
-  .pie__principal .redes__sociales {
-    display: none;
-  }
-}
 
 /*footer*/
 
