@@ -2,9 +2,6 @@
 /* font-family: 'Noto Sans', sans-serif;
    font-family: 'Rubik', sans-serif; */
 /*header*/
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Rubik:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Rubik:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Rubik:wght@500&display=swap");
 .fondo__navegable {
   background: linear-gradient(180deg, rgb(104, 167, 173) 29%, rgb(153, 196, 200) 49%, rgb(229, 203, 159) 77%);
   border: 10px solid #99c4c8;
