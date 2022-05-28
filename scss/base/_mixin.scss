@@ -1,0 +1,15 @@
+/* @mixin // @include 
+
+se coloca variables vacias
+
+*/
+
+
+
+@mixin flex ($flex,$align){
+    display: $flex;
+    align-items: $align;
+}
+.productos {
+    @include flex (flex, center)
+}

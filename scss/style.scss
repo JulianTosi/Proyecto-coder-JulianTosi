@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Rubik:wght@500&display=swap');
-@import "../scss/components/header";
+
+
+
 @import "../scss/base/estilos-generales";
-@import "../scss/base/listas";
 @import "../scss/base/variables";
-@import"../scss/base/mapas";
-@import"../scss/components/index-principal";
+@import "../scss/base/mapas";
+@import "../scss/base/extends";
+@import "../scss/base/mixin";
+
+
+@import "../scss/components/header";
 @import "../scss/components/footer";
+@import "../scss/components/index-principal";
+@import "../scss/components/analisis-principal";
+@import "../scss/components/lanzamientos-principal";
+@import "../scss/components/noticias-principal";

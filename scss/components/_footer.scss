@@ -2,6 +2,7 @@
 
 /*footer*/
 .pie__principal {
+  font-family: $fuente-principal;
   font-weight: bolder;
   font-family: "Rubik", sans-serif;
   font-size: 30px;
@@ -29,8 +30,7 @@
     text-align: justify center;
     list-style: none;
     color: green;
-    font-family: 'Noto Sans', sans-serif;
-    font-family: 'Rubik', sans-serif;
+    font-family:$fuente-principal;
     font-size: 18px;
   }
 }
