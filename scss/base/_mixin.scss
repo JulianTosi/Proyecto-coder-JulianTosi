@@ -1,16 +1,10 @@
-/* @mixin // @include 
 
-se coloca variables vacias
+@mixin text ($size,$align,$color,$weight,$font){
 
-*/
-
-
-
-@mixin text ($size,$align,$color,$weight){
-    
     font-size: $size;
     text-align: $align;
     color: $color;
     font-weight: $weight;
+    font-family: $font;
     
 }

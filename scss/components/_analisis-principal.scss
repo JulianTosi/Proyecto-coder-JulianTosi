@@ -17,25 +17,20 @@
 
 
             .analisis-1 {
-                @include text (22px, center, pink, 1000);
+                @include text (22px, center, pink, 1000, $fuente-principal);
             }
             .analisis-2{
-                @include text (10px, start, rgb(229, 13, 49), 750);
+                @include text (10px, start, rgb(229, 13, 49), 750, 'Arial Narrow');
             }
             .analisis-3{
-                @include text (35px, end, rgb(17, 201, 225), 500);
+                @include text (35px, end, rgb(17, 201, 225), 500, $fuente-principal);
             }
             .analisis-4{
-                @include text (40px, right, rgb(231, 187, 14),lighter);
+                @include text (40px, right, rgb(231, 187, 14),lighter, 'Franklin Gothic Medium');
             }
             .analisis-5{
-                @include text (15px, left, rgb(48, 197, 117), bold);
+                @include text (15px, left, rgb(48, 197, 117), bold, 'Courier New');
             }
-            font-weight: lighter;
-
-
-
-
 
         }
     }

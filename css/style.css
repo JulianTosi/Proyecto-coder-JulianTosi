@@ -6,8 +6,6 @@
 
 /* font-family: 'Noto Sans', sans-serif;
    font-family: 'Rubik', sans-serif; */
-/* % = placeholder */
-/* @extend %flex */
 .analisis__principal, .fondo__principal {
   border-style: groove;
   border-color: #e6d5b8;
@@ -15,11 +13,6 @@
   background-color: #99c4c8;
 }
 
-/* @mixin // @include 
-
-se coloca variables vacias
-
-*/
 /* font-family: 'Noto Sans', sans-serif;
    font-family: 'Rubik', sans-serif; */
 /*header*/
@@ -136,37 +129,41 @@ se coloca variables vacias
   border: solid 5px;
   border-color: rgba(11, 11, 175, 0.651);
   margin: 5px;
-  font-weight: lighter;
 }
 .analisis__principal .analisis__articulo .resumen__articulo .analisis-1 {
   font-size: 22px;
   text-align: center;
   color: pink;
   font-weight: 1000;
+  font-family: "Noto Sans", sans-serif;
 }
 .analisis__principal .analisis__articulo .resumen__articulo .analisis-2 {
   font-size: 10px;
   text-align: start;
   color: rgb(229, 13, 49);
   font-weight: 750;
+  font-family: "Arial Narrow";
 }
 .analisis__principal .analisis__articulo .resumen__articulo .analisis-3 {
   font-size: 35px;
   text-align: end;
   color: rgb(17, 201, 225);
   font-weight: 500;
+  font-family: "Noto Sans", sans-serif;
 }
 .analisis__principal .analisis__articulo .resumen__articulo .analisis-4 {
   font-size: 40px;
   text-align: right;
   color: rgb(231, 187, 14);
   font-weight: lighter;
+  font-family: "Franklin Gothic Medium";
 }
 .analisis__principal .analisis__articulo .resumen__articulo .analisis-5 {
   font-size: 15px;
   text-align: left;
   color: rgb(48, 197, 117);
   font-weight: bold;
+  font-family: "Courier New";
 }
 
 /*# sourceMappingURL=style.css.map */
