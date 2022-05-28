@@ -6,10 +6,11 @@ se coloca variables vacias
 
 
 
-@mixin flex ($flex,$align){
-    display: $flex;
-    align-items: $align;
-}
-.productos {
-    @include flex (flex, center)
+@mixin text ($size,$align,$color,$weight){
+    
+    font-size: $size;
+    text-align: $align;
+    color: $color;
+    font-weight: $weight;
+    
 }

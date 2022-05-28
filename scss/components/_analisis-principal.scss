@@ -1,15 +1,42 @@
 .analisis__principal {
-  @extend %bgPrincipal;
 
-  .analisis__articulo {
-    border: solid 2px rgb(24, 191, 41);
+    @extend %bgPrincipal;
 
-    .resumen__articulo {
+    .analisis__articulo {
 
-      border: solid 2px rgb(61, 56, 217);
+        border:map-get($bgArticulo, border) rgb(24, 191, 41);
+        margin: map-get($bgArticulo, margin);
+        background-color: map-get($bgArticulo, background-color);
 
-      margin: 5px;
+        .resumen__articulo {
 
+            border: map-get($bgArticulo, border);
+            border-color: map-get($bgArticulo, border-color);
+            margin: map-get($bgArticulo, margin);
+
+
+
+            .analisis-1 {
+                @include text (22px, center, pink, 1000);
+            }
+            .analisis-2{
+                @include text (10px, start, rgb(229, 13, 49), 750);
+            }
+            .analisis-3{
+                @include text (35px, end, rgb(17, 201, 225), 500);
+            }
+            .analisis-4{
+                @include text (40px, right, rgb(231, 187, 14),lighter);
+            }
+            .analisis-5{
+                @include text (15px, left, rgb(48, 197, 117), bold);
+            }
+            font-weight: lighter;
+
+
+
+
+
+        }
     }
-  }
 }
