@@ -1,0 +1,15 @@
+.analisis__principal {
+  @extend %bgPrincipal;
+
+  .analisis__articulo {
+    border: solid 2px rgb(24, 191, 41);
+
+    .resumen__articulo {
+
+      border: solid 2px rgb(61, 56, 217);
+
+      margin: 5px;
+
+    }
+  }
+}

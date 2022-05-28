@@ -1,4 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Rubik:wght@500&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* font-family: 'Noto Sans', sans-serif;
+   font-family: 'Rubik', sans-serif; */
+/* % = placeholder */
+/* @extend %flex */
+.analisis__principal {
+  border-style: groove;
+  border-color: #e6d5b8;
+  border-width: 25px;
+  background-color: #99c4c8;
+}
+
+/* @mixin // @include 
+
+se coloca variables vacias
+
+*/
+.productos {
+  display: flex;
+  align-items: center;
+}
+
 /* font-family: 'Noto Sans', sans-serif;
    font-family: 'Rubik', sans-serif; */
 /*header*/
@@ -14,13 +40,35 @@
 }
 
 /*header*/
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
 /* font-family: 'Noto Sans', sans-serif;
    font-family: 'Rubik', sans-serif; */
+/*footer*/
+.pie__principal {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bolder;
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  border: 10px solid #99c4c8;
+  background: rgb(104, 167, 173);
+  background: linear-gradient(0deg, rgb(104, 167, 173) 29%, rgb(153, 196, 200) 49%, rgb(229, 203, 159) 77%);
+}
+.pie__principal .a__nosotros {
+  text-decoration: none;
+  color: green;
+}
+.pie__principal .footer__logo {
+  max-width: 100px;
+}
+.pie__principal .redes__sociales {
+  text-align: justify center;
+  list-style: none;
+  color: green;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+}
+
+/*footer*/
 /*index principal*/
 /* font-family: 'Noto Sans', sans-serif;
    font-family: 'Rubik', sans-serif; */
@@ -88,37 +136,12 @@
 }
 
 /*index principal*/
-/* font-family: 'Noto Sans', sans-serif;
-   font-family: 'Rubik', sans-serif; */
-/*footer*/
-.pie__principal {
-  font-weight: bolder;
-  font-family: "Rubik", sans-serif;
-  font-size: 30px;
-  text-align: center;
-  border: 10px solid #99c4c8;
-  background: rgb(104, 167, 173);
-  background: linear-gradient(0deg, rgb(104, 167, 173) 29%, rgb(153, 196, 200) 49%, rgb(229, 203, 159) 77%);
+.analisis__principal .analisis__articulo {
+  border: solid 2px rgb(24, 191, 41);
 }
-.pie__principal .a__nosotros {
-  text-decoration: none;
-  color: green;
+.analisis__principal .analisis__articulo .resumen__articulo {
+  border: solid 2px rgb(61, 56, 217);
+  margin: 5px;
 }
-.pie__principal .footer__logo {
-  max-width: 100px;
-}
-.pie__principal .redes__sociales {
-  text-align: justify center;
-  list-style: none;
-  color: green;
-  font-family: "Noto Sans", sans-serif;
-  font-family: "Rubik", sans-serif;
-  font-size: 18px;
-}
-
-/*footer*/
-/* % = placeholder */
-/* @extend %flex */
-/* $ancho_img: 50% */
 
 /*# sourceMappingURL=style.css.map */
